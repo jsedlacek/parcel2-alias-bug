@@ -1,19 +1,14 @@
 {
-  "name": "parce2-alias-bug-workspace",
+  "name": "parcel2-alias-bug-workspace",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "parcel": "^2.2.1",
+    "parcel": "^2.6.2",
     "preact": "^10.6.5",
     "react": "^17.0.2",
     "react-confetti": "^6.0.1",
     "react-dom": "^17.0.2"
-  },
-  "alias": {
-    "react": "preact/compat",
-    "react-dom": "preact/compat",
-    "react/jsx-runtime": "preact/jsx-runtime"
   },
   "scripts": {
     "build": "parcel build index.html --detailed-report 100"
